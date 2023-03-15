@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="grouptest">
+	<test name="Test">
+
+		<groups>
+			<run>
+				<include name="MouseHover" />
+				<include name="BrowserLaunch" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.assignment.Groups" />
+			<class name="com.assignment.Groups1" />
+			<class name="com.assignment.Groups2" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
